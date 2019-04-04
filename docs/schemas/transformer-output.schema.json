@@ -1,0 +1,17 @@
+{
+  "$id": "https://github.com/archive-manager-and-processor/schemas/transformer-output.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "TransformerOutput",
+  "type": "object",
+  "properties": {
+    "uri": {
+      "type": "string",
+      "description": "The platform-specific path to the cloud object resource"
+    },
+    "guid": {
+      "type": "string",
+      "description": "A globally unique identifier for the resource (optional)"
+    },
+    "required": [ "uri" ]
+  }
+}
